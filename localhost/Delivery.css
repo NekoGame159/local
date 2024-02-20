@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.site {
+    width: 100%;
+    height: 2600px;
+    background-color: white
+}
+
+.site__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider1{
+    width: 100%;
+    height: 500px;
+}
+
+.slider__block1{
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.slider__wrapper {
+    width: 100%;
+    height: 2600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1{
+    width: 460PX;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.site_menu{
+ height: 72px;
+ width: 1000px;
+ display: flex;
+ flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;   
+}
+.menu__logo {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+font-size: 32px;
+font-weight: 800;
+color: black;
+}
+.menu__link {
+    margin-left: 24px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu__link :hover{
+    text-decoration: underline;
+}
+.menu__list{
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+}
+.site_content {
+    height: 2500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.site_logo{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px; 
+}
+.image1{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.Golova1{
+    font-size: 40px;
+}
+.Text1{
+    margin-top: 20px;
+}
+.Button1{
+    height: 60px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 174, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button2{
+    margin-top: 30px;
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: rgba(255, 174, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.Golova2{
+    font-size: 40px;
+}
+.Text2{
+    margin-top: 20px;
+}
+.slider2{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+}
+.slider__block2{
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+.main2{
+    margin-left: 160px;
+    width: 460PX;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.image3{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.Golova3{
+    font-size: 40px;
+}
+.Text3{
+    margin-top: 20px;
+}
+.slider3{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+}
+.slider__block3{
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+.main3{
+    margin-left: 160px;
+    width: 460PX;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.Golova4{
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+.Golova4_1{
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+.golova_Service{
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+.img_Service{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.service{
+    width: 400px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    margin: 30px;
+}
+.text_Service{
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+.Learn_Service{
+    font-size: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+.Services{
+    display: flex;
+}
+.slider4{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+}
+.image5{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.Golova5{
+    font-size: 40px;
+}
+.Text5{
+    margin-top: 20px;
+}
+.slider5{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+}
+.slider__block5{
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+.main5{
+    margin-left: 160px;
+    width: 460PX;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.Stores{
+    margin-top: 15px;
+    display: flex;
+}
+.Google{
+    margin-left: 15px;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 174, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Yandex{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgba(255, 174, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contacts{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.text_cont{
+    margin-left: 100px;
+    font-size: 20px;
+    color: gray;
+}
+.cont{
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.telephone{
+    width: 300px;
+    font-size: 20px;
+    color: gray;
+}
+.email{
+    width: 300px;
+    font-size: 20px;
+    color: gray;
+}
+.Loc{
+    width: 300px;
+    font-size: 20px;
+    color: gray;
+}
+.contact_button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgba(255, 174, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider6{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(254, 229, 154);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Our_services{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Our_services_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.Our_company_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.Community_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.service1{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Our_company{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Community{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
