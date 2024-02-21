@@ -1,0 +1,10 @@
+.circle-image {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.circle-image img {
+    width: 100px;
+    border-radius: 50%;
+  }
