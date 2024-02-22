@@ -3,7 +3,7 @@
 $host_name = "localhost";
 $db_name = "users";
 $username = "root";
-$password = "";
+$password = "root";
 
 // Соединение с базой данных
 $conn = new mysqli($host_name, $username, $password, $db_name);
