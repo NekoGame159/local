@@ -28,6 +28,16 @@
                 <div class="slider__block1">
                     <div class="main1">
                         <div class="Golova1"><b>Добро пожаловать<br>Админ</b></div>
+                        <form action="delete.php" method="post">
+                            <label for="id">напиши id, чтобы удалить Пользователя </label><br>
+                            <input type="text" id="id" name="id"><br>
+                            <input type="submit" value="Delete">
+                        </form>
+                        <form action="edit.php" method="post">
+                            <label for="id">Enter the ID of the record to edit:</label><br>
+                            <input type="text" id="id" name="id"><br>
+                            <input type="submit" value="Edit">
+                        </form>
                     </div>
                     </div>
                 </div>
